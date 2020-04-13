@@ -38,14 +38,14 @@ Pleasant Lake test case
 
 LGR parent model configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-.. literalinclude:: ../../mfsetup/tests/data/pleasant_lgr_parent.yml
+.. literalinclude:: ../../examples/pleasant_lgr_parent.yml
     :language: yaml
     :linenos:
 
 pleasant_lgr_inset.yml
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../../mfsetup/tests/data/pleasant_lgr_inset.yml
+.. literalinclude:: ../../examples/pleasant_lgr_inset.yml
     :language: yaml
     :linenos:
 
