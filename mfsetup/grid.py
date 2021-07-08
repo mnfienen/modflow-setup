@@ -6,6 +6,7 @@ the discretization module.
 import collections
 import time
 import warnings
+from pathlib import Path
 
 import geopandas as gp
 import gisutils
@@ -606,7 +607,7 @@ def rasterize(feature, grid, id_column=None,
     trans = grid.transform
 
     kwargs = {}
-    if isinstance(feature, str):
+    if isinstance(feature, str) or isinstance(feature, Path):
         proj4 = get_proj_str(feature)
         kwargs = {'dest_crs': grid.crs}
         kwargs = get_input_arguments(kwargs, shp2df)
